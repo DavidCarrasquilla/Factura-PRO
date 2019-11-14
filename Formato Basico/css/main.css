@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 .logo {
     float: left;
     width: 20%;
@@ -22,21 +25,25 @@
     list-style-type: none;
     display: inline;
     text-align: center;
-    margin-right: 10%;    
+    margin-right: 10%;  
+   
 }
 
 .navegador a {
     text-decoration: none;
-    color: black;  
+    color: white; 
+    
 }
 
 .navegador a:hover {
     background-color: #333333;
-    color: #ffffff;
+    /*color: #ffffff;*/
     padding: 1em;
 }
 
 .cf {
+    background-color: cadetblue;
+    margin-top: 0 auto;
 
 }
 /** CLEAR FIX ////////////////////////
